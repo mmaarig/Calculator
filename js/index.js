@@ -22,7 +22,7 @@ function myFunction() {
 //    document.getElementById("demo3").innerHTML = "Your Overtime is probably: "+ot;
 //    }
 
-    function myFunction3() {
+   function myFunction3() {
     var basic = prompt("Please Enter Your Basic Salary ") //user input for Hourly Overtime result
     var hours = prompt("Please Enter Your Hours ") //user input for Hourly Overtime result
     var ot = (((basic/26)/8)*(Number(2)))*(hours)
